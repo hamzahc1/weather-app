@@ -1,0 +1,36 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "App that displays the weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m6cheung/weather-app.git"
+  },
+  "keywords": [],
+  "author": "Michael Cheung & Hamzah Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m6cheung/weather-app/issues"
+  },
+  "homepage": "https://github.com/m6cheung/weather-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.8.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "install": "^0.7.3",
+    "lodash": "^4.12.0",
+    "npm": "^3.8.9",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.0",
+    "react-simple-router": "^0.1.8",
+    "redis": "^2.6.0-2",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
