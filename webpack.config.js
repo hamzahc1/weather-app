@@ -4,14 +4,14 @@ const webpack = require('webpack');
 
 
 //for hot-loading with webpack-dev-server
-const TARGET = process.env.npm_lifecycle_event;
+const TARGET = process.env.npm_lifecycle_event
 
 
 const PATHS = {
   //path to top-level file.
   app: path.join(__dirname, 'app'),
   //specifies the path where bundle.js will be written
-  build: path.join(__dirname)
+  build: path.join(__dirname, 'build')
 };
 
 const common = {
