@@ -1,3 +1,3 @@
 # weather-app
 
-Git change
+This React/Redux Application will use local weather API's to provide forecasts! 
